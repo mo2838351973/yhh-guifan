@@ -4,5 +4,6 @@
   "description": "> TODO: description",
   "author": "姚欢欢 <yaohuanhuan@woody.club>",
   "homepage": "",
-  "main": "index.js"
+  "main": "index.js",
+  "gitHead": "67726907cd05adec6c9e2c5d322542df9463f802"
 }
