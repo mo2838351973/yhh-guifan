@@ -4,6 +4,8 @@
 
 ## Usage
 
+111
+
 ```
 const commitlintConfig = require('commitlint-config');
 
