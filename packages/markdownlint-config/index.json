@@ -25,6 +25,7 @@
       "Sass",
       "SCSS",
       "HTTP",
+      "http",
       "HTTPS",
       "WebSocket",
       "ECMAScript",
