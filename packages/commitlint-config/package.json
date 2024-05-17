@@ -1,9 +1,9 @@
 {
-  "name": "yhh-commitlint-config",
+  "name": "yhh02-commitlint-config",
   "version": "8.0.0",
   "description": "> TODO: description",
   "author": "姚欢欢 <yaohuanhuan@woody.club>",
   "homepage": "",
   "main": "index.js",
-  "gitHead": "db4362847b3d406d3c33d07710d99f182cc02aa9"
+  "gitHead": "934b2091c1a526aa0d54028832a565ab1e0d7acb"
 }
