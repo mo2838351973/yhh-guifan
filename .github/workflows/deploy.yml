@@ -14,12 +14,23 @@ jobs:
               uses: actions/setup-node@v3
               with:
                   #node-version: 16.20.2
-                  node-version: 18.12.0
+                  node-version: 18.20.2
 
-            - name: Install and Build
+            - name: Install
               run: |
                   npm i -g pnpm
                   pnpm run init
+              env:
+                  NODE_OPTIONS: '--max_old_space_size=4096'
+
+            # Reset Node.js version to default (i.e., 18.x) for subsequent steps
+            - name: Reset Node.js version to default
+                uses: actions/setup-node@v3
+                with:
+                node-version: 16.20.2
+
+            - name: Build
+              run: |
                   pnpm run docs:build
               env:
                   NODE_OPTIONS: '--max_old_space_size=4096'
