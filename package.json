@@ -11,10 +11,7 @@
     "markdownlint": "^0.28.1",
     "pnpm": "^8.6.0",
     "rimraf": "^3.0.2",
-    "vue-template-compiler": "^2.7.14",
-    "vuepress": "^1.9.9",
-    "vuepress-plugin-one-click-copy": "^1.0.2",
-    "vuepress-plugin-zooming": "^1.1.7"
+    "vuepress": "^1.9.10"
   },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
@@ -23,7 +20,7 @@
     "clean": "lerna clean && rm -rf node_modules",
     "test": "pnpm run test",
     "docs:dev": "vuepress dev docs",
-    "doc:build": "vuepress build docs",
+    "docs:build": "vuepress build docs",
     "deploy": "bash deploy.sh",
     "publish": "lerna publish --loglevel verbose",
     "lint": "markdownlint README.md",
