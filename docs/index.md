@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: 欢欢之家0125
+heroText: 欢欢之家012566
 tagline: 前端编码规范工程化
 actionText: 立刻进入 →
 actionLink: /coding/html.md
