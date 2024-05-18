@@ -25,9 +25,9 @@ jobs:
 
             # Reset Node.js version to default (i.e., 18.x) for subsequent steps
             - name: Reset Node.js version to default
-                uses: actions/setup-node@v3
-                with:
-                node-version: 16.20.2
+              uses: actions/setup-node@v3
+              with:
+                  node-version: 16.20.2
 
             - name: Build
               run: |
